@@ -1,7 +1,6 @@
 # Exercise 2
 
-
-# XMC1400 XTREME
+## XMC1400 XTREME
 
 ## 1 Block Diagram
 ![text](https://github.com/aaronv55/Making-Embedded-Systems-Class/blob/master/Homework/Week%202/Hardware%20Block%20Diagram%20-%20XMC1400%20EXTREME.png)
@@ -47,7 +46,7 @@ https://www.infineon.com/dgdl/Infineon-ApplicationNote_Pseudo_Digital-to-Analog_
 
 
 
-# STM32F429I-DISC1
+## STM32F429I-DISC1
 
 ## 1 Block Diagram
 ![text](https://github.com/aaronv55/Making-Embedded-Systems-Class/blob/master/Homework/Week%202/Hardware%20Block%20Diagram%20-%20STM32F42I-DISCO.png)
