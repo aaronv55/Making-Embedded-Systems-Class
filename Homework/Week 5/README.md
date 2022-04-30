@@ -1,4 +1,4 @@
-# Exercise 5
+# Exercise Week 5
 
 Porting the example console code from the RPi Pico simulator to my STM32F410RB was fairly straightforward, although there were a few hiccups. I’m glad I didn’t have to write the scary-looking command buffer and string comparison routine.
 
