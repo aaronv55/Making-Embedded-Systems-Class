@@ -26,7 +26,7 @@ The device is intended to sit on a coffee table or desk, and its main goal is to
 * Self-written STM32 drivers from previous project
 * ST’s register definition & startup files
 
-###
+### Written/Modified for this project
 * Main state machine
 * Electromagnet drivers
 * LED drivers
