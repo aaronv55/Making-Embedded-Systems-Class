@@ -1,7 +1,7 @@
 # Exercise 6
 
 # Electro-Jelly Box
-![text]()
+![text](https://github.com/aaronv55/Making-Embedded-Systems-Class/blob/master/Homework/Week%206/Final%20Report_Cover%20Picture.png)
 
 ## Application Overview
 The Electro-Jelly Box is a small embedded system with the form factor of an iPod docking station (remember those?) It consists of a plastic housing with multiple jelly pods, each of which contain a small, silicon jellyfish. The figures are suspended in liquid and are modified to be neutrally buoyant.
@@ -68,7 +68,7 @@ N/A
 
 
 ## Specific to Rough Draft
-###Areas where I might have trouble
+### Areas where I might have trouble
 * Mechanical build of jelly pods
 * Algorithm to feed the electromagnet driver
 * Controlling jellyfish blindly with open-loop system
