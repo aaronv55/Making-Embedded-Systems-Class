@@ -13,6 +13,7 @@ The goal for this assignment was to familiarize ourselves with the layout of our
 
 ## Stack Pointer
 ![](https://github.com/aaronv55/Making-Embedded-Systems-Class/blob/master/Homework/Week%208/Stack%20Pointer%20Code.png)
+
 The stack pointer was the trickiest address to find out of the whole assignment. Since it lies in a dedicated register with a fixed address (that I didn’t know), I couldn’t simply declare a variable and manually check its address/contents. I spent a bit of time digging through libraries in Keil and found “cmsis_armcc.h”. This had a nifty assembly function which allowed me to read the current value with a simple call.
 
 I then confirmed that I had received the correct address from this mystery function by comparing it to that of the local variable we just declared.
