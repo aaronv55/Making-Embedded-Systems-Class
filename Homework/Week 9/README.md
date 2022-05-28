@@ -4,14 +4,14 @@ The goal of this assignment is to implement a small algorithm in a number of dif
 
 
 ## Method 1: Sprintf()
-![https://github.com/aaronv55/Making-Embedded-Systems-Class/blob/master/Homework/Week%209/Code_Method_Sprintf.png]()
+![](https://github.com/aaronv55/Making-Embedded-Systems-Class/blob/master/Homework/Week%209/Code_Method_Sprintf.png)
 
 The main benefit of using this method is that it’s arguably the most straightforward solution. It makes your codebase much more portable and easier for yourself and others to understand.
 
 The downside is that you will have to deal with the overhead of including sprintf(). This comes in the form of both undesired latency and added code size from the function itself and its dependencies.
 
 ## Method 2: Lookup Table
-![https://github.com/aaronv55/Making-Embedded-Systems-Class/blob/master/Homework/Week%209/Code_Method_LookupTable.png]()
+![](https://github.com/aaronv55/Making-Embedded-Systems-Class/blob/master/Homework/Week%209/Code_Method_LookupTable.png)
 
 This method maps a uint8 to one of 256 possible string combinations. Although there is most likely a much faster way than strcpy() to copy the desired element to tmp_str, using a lookup table like this is generally one of the faster ways to implement algorithms.
 
@@ -19,7 +19,7 @@ The downfall here is that you’re going to have to trade all that speed for cod
 
 
 ## Method 3: Division (Don’t do this)
-![https://github.com/aaronv55/Making-Embedded-Systems-Class/blob/master/Homework/Week%209/Code_Method_Division.png]()
+![](https://github.com/aaronv55/Making-Embedded-Systems-Class/blob/master/Homework/Week%209/Code_Method_Division.png)
 
 A few years ago in a fit of desperation (before I knew about sprinft), I actually implemented this method while trying to debug over a serial terminal. I can’t stress enough how bad of an idea this is. Essentially, division is used to find the value of each tens place, which is then added to the ASCII number ‘0’. Afterwards, the value of that tens place is subtracted from the original number, and the process repeats until there are no more digits. I told you this was a bad idea.
 
